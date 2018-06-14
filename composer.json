@@ -1,0 +1,26 @@
+{
+  "name": "spenserhale/grammar",
+  "description": "Grammatical utility class for pluralizing, singularizing, and finding the appropriate indefinite article to a word (a/an)",
+  "type": "library",
+  "require": {
+    "php": ">= 7.2.2",
+    "doctrine/inflector": "^1.3",
+    "spenserhale/indefinite-article": "^1.0.0"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Spenser Hale",
+      "email": "spenserhaledeveloper@outlook.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Grammar\\": "src/"
+    }
+  },
+  "require-dev": {
+    "nilportugues/php_backslasher": "^1.1",
+    "phpunit/phpunit": "^7.2"
+  }
+}
